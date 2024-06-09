@@ -4,3 +4,11 @@ number_grid = [
     [7, 8, 9],
     [0]
 ]
+
+print(number_grid[0][0])
+print("------")
+
+
+for row  in number_grid:
+    for col in row:
+        print(col)
